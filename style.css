@@ -1,0 +1,302 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: sans-serif;
+}
+
+#popus hr{
+	width: 300px;
+	height: 1.5px;
+	background-color: #f8aaa8;
+}
+
+#productos hr{
+	width: 100px;
+	height: 1.5px;
+	background-color: #f8aaa8;
+}
+
+#contacto hr{
+	width: 100px;
+	height: 1.5px;
+	background-color: #f8aaa8;
+}
+
+p{
+	color: #6d6e71;
+	border: none;
+	outline: none;
+}
+
+#home h1{
+	margin-left: 40px;
+	margin-top: 300px;
+	font-size: 2.5rem;
+	color: #6d6e71;
+}
+
+#home button{
+	margin-left: 100px;
+	margin-top: 25px;
+	cursor: pointer;
+	font-size: 1.5rem;
+	font-family: sans-serif;
+	outline: none;
+	border: none;
+	background-color: #f8aaa8;
+	color: #ffffff;
+	padding: 13px 30px;
+	border-radius: 15px;
+}
+
+.navbar{
+	font-size: 20px;
+	top: 0;
+	left: 0;
+}
+
+.navbar-light .navbar-nav .nav-link{
+	margin-right: 20;
+	margin-left: 20;
+	padding: 10 50px;
+	padding-left: 20;
+	color: #6d6e71;
+	transition: 0.3s ease;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar i:hover,
+.navbar-light .navbar-nav .nav-link.active
+.navbar i.active{
+	color: #f8aaa8;
+}
+
+.navbar img{
+	margin-right: 10px;
+	margin-left: 20px;
+	font-size: 1.2rem;
+	padding: 10 7px;
+	cursor: pointer;
+	font-weight: 500;
+	transition: 0.3s ease;
+}
+
+.navbar i{
+	color: #6d6e71;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-left: 20px;
+	font-size: 1.5rem;
+	padding: 20 7px;
+	cursor: pointer;
+	font-weight: 500;
+	transition: 0.3s ease;
+}
+
+.navbar-light .navbar-toggler{
+	border: none;
+	outline: none;
+}
+
+#home {
+	background-image: url("img/bg.png");
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	background-position: top 80px center;
+	display: flex;
+}
+
+
+
+#home span{
+	color: #f8aaa8;
+}
+
+#popus{
+	background-color: white;
+}
+
+#popus h1{
+	text-align: center;
+	font-size: 2rem;
+	color: #6d6e71;
+}
+
+#productos{
+
+}
+
+#productos h1{
+	text-align: center;
+	font-size: 2rem;
+	color: #6d6e71;
+}
+
+.star i{
+	color: #f8aaa8;
+}
+
+.star{
+	padding: 10px;
+}
+
+#popus .producto{
+	margin-left: 93px;
+}
+
+.producto{
+	cursor: pointer;
+	padding-bottom: 10px;
+}
+
+.producto img{
+	transition: 0.3s all;
+}
+
+.producto:hover img{
+	opacity: 0.7;
+}
+
+.producto .pbot{
+	cursor: pointer;
+	font-size: 0.8rem;
+	font-family: sans-serif;
+	outline: none;
+	border: none;
+	background-color: #f8aaa8;
+	color: #ffffff;
+	padding: 13px 30px;
+	border-radius: 15px;
+	transform: translateY(20px);
+	opacity: 0;
+	transition: 0.3s all;
+}
+
+.producto:hover .pbot{
+	transform: translateY(0);
+	opacity: 1;
+}
+
+.cbot{
+	margin-left: 723px;
+	margin-top: 25px;
+	cursor: pointer;
+	font-size: 0.8rem;
+	font-family: sans-serif;
+	outline: none;
+	border: none;
+	background-color: #f8aaa8;
+	color: #ffffff;
+	padding: 10px 27px;
+	border-radius: 15px;
+}
+
+#carrito h1{
+	text-align: center;
+	font-size: 2rem;
+	color: #6d6e71;
+}
+
+#carrito hr{
+	width: 300px;
+	height: 1.5px;
+	background-color: #f8aaa8;
+}
+
+#total hr{
+	width: 300px;
+	height: 1.5px;
+	background-color: #f8aaa8;
+}
+
+#carrito h4{
+	padding-top: 87px;
+	color: #f8aaa8;
+	text-align: right;
+	padding-left: 500px;
+}
+
+#carrito h5{
+	padding-top: 87px;
+	color: #6d6e71;
+	text-align: right;
+	padding-left: 20px;
+}
+
+.producto1{
+	padding-left: 180px;
+}
+
+#total h4{
+	color: #f8aaa8;
+	text-align: right;
+	padding-right: 700px;
+}
+
+#total h5{
+	color: #6d6e71;
+	text-align: right;
+	padding-left: 700px;
+	text-align: left;
+}
+
+#total button{
+	margin-left: 710px;
+	margin-top: 25px;
+	cursor: pointer;
+	font-size: 0.8rem;
+	font-family: sans-serif;
+	outline: none;
+	border: none;
+	background-color: #f8aaa8;
+	color: #ffffff;
+	padding: 10px 27px;
+	border-radius: 15px;
+}
+
+.login{
+	margin-top: 10px;
+	cursor: pointer;
+	font-size: 0.8rem;
+	font-family: sans-serif;
+	outline: none;
+	border: none;
+	background-color: #f8aaa8;
+	color: #ffffff;
+	padding: 10px 27px;
+	border-radius: 15px;
+}
+
+#contacto h4{
+	color: #f8aaa8;
+}
+
+#contacto h5{
+	color: #6d6e71;
+}
+
+#contacto h1{
+	color: #f8aaa8;
+}
+
+.eliminar{
+	cursor: pointer;
+	font-size: 0.8rem;
+	font-family: sans-serif;
+	outline: none;
+	border: none;
+	background-color: #f8aaa8;
+	color: #ffffff;
+	padding: 10px 15px;
+	border-radius: 15px;
+}
+
+#boton{
+	margin-top: 80px;
+	margin-left: 15px;
+}
